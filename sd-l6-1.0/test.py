@@ -37,7 +37,7 @@ def test_task_two():
     # Outputs
     output_array = [
 
-        "[",
+        "[",#Se corrige la identación
         "  {",
         "    id: '1',",
         "    first_name: 'Joshua',",
@@ -75,7 +75,7 @@ def test_task_three():
     # Outputs
     output_array = [
         "{",
-        "  id: '6',",
+        "  id: '6',",#Se pone el id como cadena
         "  first_name: 'Kai',",
         "  last_name: 'Nathaniel',",
         "  email: 'kai.n@example.org'",
@@ -93,8 +93,8 @@ def test_task_four():
 
     # Outputs
     output_array = [
-        
-        "[",
+
+        "[",#se corrige identación
         "  {",
         "    id: '1',",
         "    first_name: 'Joshua',",
